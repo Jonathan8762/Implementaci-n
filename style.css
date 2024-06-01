@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  background: white;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+header{
+background: rebeccapurple;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+main{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  height: 100vh;
+
+}
+aside{
+  background: #000;
+  color: white;
+  padding: 10px;
+  width: 300px;
+  height: 100vh;
+}
+section#contenido{
+  background: #fff;
+  color: #000;
+  padding: 10px;
+  width: 200px; 
+  height: 100vh;
+
+}
